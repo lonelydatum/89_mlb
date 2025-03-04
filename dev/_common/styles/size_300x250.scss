@@ -18,7 +18,12 @@
 #olg{
 	width: 104px;
 	height: 69px;
-	@include pos(0, 194);
+	@include pos(0, 192);
 }
 
 
+
+
+.end_smart{
+	@include pos-scale(0, 2, .5);
+}
